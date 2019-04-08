@@ -1,0 +1,16 @@
+﻿@using Class_4_04_19.Models;
+@model Images
+
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3 container">
+        <h4>
+            "Thank you for uploading your images, here's the link to share with your friends:
+            <br />
+
+            <a href="http://localhost:58903/Home/enterpassword?id= @Model.id">/Home/enterpassword?id= @Model.id</a>
+            <br />
+            Make sure to give them the password of '@Model.Password'
+        </h4>
+    </div>
+</div>
